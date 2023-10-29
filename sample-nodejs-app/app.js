@@ -37,14 +37,7 @@ app.post("/", function (req, res) {
     <h2>
      That was easy, your result is: ${calculator(num1, num2, operator)}
     </h2>
-    <img src="https://image-repo-buraku.s3.eu-west-1.amazonaws.com/EC2.png" alt="EC2-Icon"class="center" width="10%" style="vertical-align:middle;margin:0px 100px">
-    <p>
-    There's no need for compliments </p>
-    <p>I already know i'm the smartest app in the world hahaha ;)</p>
-    <p>
-    By the way I'm runningg on a single EC2 Instance
-    </p>
-    <p><a href="YOUR IP">BACK TO CALCULATOR...</a></p>
+    <p><a href="http://localhost:3000">BACK TO CALCULATOR...</a></p>
   `);
 });
 
